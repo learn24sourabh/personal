@@ -1,0 +1,78 @@
+{
+	"info": {
+		"_postman_id": "54c21f67-b206-45f1-9009-b55b01ff5220",
+		"name": "InputFile",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23443635",
+		"_collection_link": "https://restless-meteor-851356.postman.co/workspace/Team-Workspace~a79449f8-6cdb-4514-8925-891152ad6d04/collection/23443635-54c21f67-b206-45f1-9009-b55b01ff5220?action=share&source=collection_link&creator=23443635"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://rahulshettyacademy.com/maps/api/place/get/json?place_id={{placeId}}&key={{keyValue}}",
+					"protocol": "http",
+					"host": [
+						"rahulshettyacademy",
+						"com"
+					],
+					"path": [
+						"maps",
+						"api",
+						"place",
+						"get",
+						"json"
+					],
+					"query": [
+						{
+							"key": "place_id",
+							"value": "{{placeId}}"
+						},
+						{
+							"key": "key",
+							"value": "{{keyValue}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "keyValue",
+			"value": "",
+			"type": "string"
+		},
+		{
+			"key": "placeId",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
